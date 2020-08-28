@@ -4,7 +4,7 @@ Made in April 16th, 2020 by Shivan Sivakumaran. The one and only version.
 
 This is my <b>very first</b> python project.
 
-The reason for making this is that my girlfriend wanted to get better at multiplication. So, as any good boyfriend does, I made this program.
+The reason for making this is to quiz myself on muliplication.
 ## How it works
 You can either run `LearnMultplication.py` or run the `LearnMulplication.bat` file.
 
