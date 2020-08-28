@@ -1,6 +1,6 @@
 cls
 :start
-@py LearnMultplication.py %*
+@py LearnMultiplication.py %*
 @pause
 @echo off
 set choice=

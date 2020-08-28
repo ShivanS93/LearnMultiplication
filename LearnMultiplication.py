@@ -43,7 +43,7 @@ while tests_remaining > 0:
 
         while True:  # check number is correct
             try:
-                enter_answer = int(input("%s x %s = " % num_1, num_2))
+                enter_answer = int(input("%s x %s = " % (num_1, num_2)))
                 break
             except ValueError:
                 print("Please enter a number!")
@@ -60,5 +60,4 @@ while tests_remaining > 0:
                 print('Incorrect. Try again! Remaining attempts: %s'%(MAX_ERROR - errors))
                 errors += 1
 
-# print("You got {} out of {} correct ({} %)".format(correct_tally,TOTAL_TESTS,correct_tally/TOTAL_TESTS*100))
 print("You completed the test. Good on you!")
